@@ -65,9 +65,11 @@ species   0: 50   1: 50   2: 50   (balanced dataset)
 ```
 
 📷 **Screenshot:**
-![Step 1 Output](screenshots/step1_dataset.png)
+![Step 1 Output](screenshots/step1_dataset.png)<img width="1366" height="768" alt="A" src="https://github.com/user-attachments/assets/874b238f-8e43-43c4-be09-6a7f3eca90b1" />
+<img width="1366" height="768" alt="A" src="https://github.com/user-attachments/assets/4287fa8a-3961-4564-b74f-35dfab7cec84" />
+<img width="1366" height="768" alt="A" src="https://github.com/user-attachments/assets/00cd6889-6ea1-4810-b8e9-233b68741326" />
 
----<img width="1200" height="1600" alt="WhatsApp Image 2026-09-18 <img width="1600" height="1200" alt="WhatsApp Image 2026-09-19 at 12 11 21 AM" src="https://github.com/user-attachments/assets/1cfca698-58ec-4967-a659-24c92304525a" /> 3 36 25 PM" src="https://github.com/user-attachments/assets/6a9190e6-310a-424d-b36c-5fae1568544b" />
+
 
 
 ## 🚀 Step 2 — Feature Scaling & Train-Test Split
@@ -97,9 +99,9 @@ Testing data size:  (30, 4)
 ```
 
 📷 **Screenshot:**
-![Step 2 Output](<img width="1600" height="1200" alt="WhatsApp Image 2026-09-19 at 12 41 21 AM" src="https://github.com/user-attachments/assets/468137d3-ba49-4a9d-a267-71f1e513f857" />
-<img width="1600" height="1200" alt="WhatsApp Image 2026-09-19 at 12 11 21 AM" src="https://github.com/user-attachments/assets/21c06b46-6285-4a5a-af80-ad3e546da763" />
-reenshots/step2_split.png)
+![Step 2 Output](screenshots/step2_split.png)
+                     
+<img width="1366" height="768" alt="A" src="https://github.com/user-attachments/assets/0056167c-5ac8-4bfa-8598-24913f39f6da" />
 
 ---
 
@@ -122,7 +124,8 @@ print(classification_report(y_test, predictions))
 📷 **Screenshot:**
 ![Step 3 Output](screenshots/step3_accuracy.png)
 
----<img width="1600" height="1200" alt="WhatsApp Image 2026-09-19 at 12 11 21 AM" src="https://github.com/user-attachments/assets/cce79758-35ad-4121-a635-5cb70367d827" />
+<img width="768" height="1366" alt="I" src="https://github.com/user-attachments/assets/ef7cfb8d-bc06-4ad4-af22-bc9cc99859e7" />
+<img width="1366" height="768" alt="AI" src="https://github.com/user-attachments/assets/480cebca-a981-43c6-ae95-f610a26b7786" />
 
 
 ## 🎁 Bonus — Prediction on New/Custom Data
@@ -138,6 +141,7 @@ print('Predicted species:', species_names[prediction[0]])
 
 📷 **Screenshot:**
 ![Bonus Output](screenshots/bonus_prediction.png)
+<img width="768" height="1366" alt="I" src="https://github.com/user-attachments/assets/b6692d20-9589-4aa7-93c5-c8993070ef47" />
 
 ---
 
