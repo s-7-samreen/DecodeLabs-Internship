@@ -65,9 +65,10 @@ species   0: 50   1: 50   2: 50   (balanced dataset)
 ```
 
 📷 **Screenshot:**
-![Step 1 Output](screenshots/step1_dataset.png)<img width="1366" height="768" alt="A" src="https://github.com/user-attachments/assets/874b238f-8e43-43c4-be09-6a7f3eca90b1" />
-<img width="1366" height="768" alt="A" src="https://github.com/user-attachments/assets/4287fa8a-3961-4564-b74f-35dfab7cec84" />
-<img width="1366" height="768" alt="A" src="https://github.com/user-attachments/assets/00cd6889-6ea1-4810-b8e9-233b68741326" />
+![Step 1 Output](screenshots/step1_dataset.png)<img width="1366" height="768" alt="A" src="https://github.com/user-attachments/assets/3461ea93-de91-4ebd-bc9c-3412925e7ac0" />
+
+
+
 
 
 
@@ -124,8 +125,7 @@ print(classification_report(y_test, predictions))
 📷 **Screenshot:**
 ![Step 3 Output](screenshots/step3_accuracy.png)
 
-<img width="768" height="1366" alt="I" src="https://github.com/user-attachments/assets/ef7cfb8d-bc06-4ad4-af22-bc9cc99859e7" />
-<img width="1366" height="768" alt="AI" src="https://github.com/user-attachments/assets/480cebca-a981-43c6-ae95-f610a26b7786" />
+<img width="1366" height="768" alt="AI" src="https://github.com/user-attachments/assets/a7d9d8a9-345f-4bcb-82fd-74c08b633ef5" />
 
 
 ## 🎁 Bonus — Prediction on New/Custom Data
@@ -141,7 +141,8 @@ print('Predicted species:', species_names[prediction[0]])
 
 📷 **Screenshot:**
 ![Bonus Output](screenshots/bonus_prediction.png)
-<img width="768" height="1366" alt="I" src="https://github.com/user-attachments/assets/b6692d20-9589-4aa7-93c5-c8993070ef47" />
+<img width="768" height="1366" alt="I" src="https://github.com/user-attachments/assets/785024b9-23f6-46d9-a76e-fb40713da76e" />
+
 
 ---
 
