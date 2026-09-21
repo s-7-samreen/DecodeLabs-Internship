@@ -141,7 +141,8 @@ print('Predicted species:', species_names[prediction[0]])
 
 📷 **Screenshot:**
 ![Bonus Output](screenshots/bonus_prediction.png)
-<img width="768" height="1366" alt="I" src="https://github.com/user-attachments/assets/785024b9-23f6-46d9-a76e-fb40713da76e" />
+![Uploading I.jpeg…]()
+
 
 
 ---
