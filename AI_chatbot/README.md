@@ -22,7 +22,7 @@ The chatbot can:
 2. Open the project folder in your terminal (or VS Code integrated terminal).
 3. Navigate to the folder containing `chatbot.py`:
    ```
-   cd path\to\your\folder
+   cd AI_chatbot
    ```
 4. Run the chatbot using:
    ```
