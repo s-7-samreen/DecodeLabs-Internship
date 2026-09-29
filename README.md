@@ -18,6 +18,8 @@ This repository contains four progressive AI/ML projects completed as part of th
 
 ## Project 1 — Rule-Based AI Chatbot
 
+📁 Folder: [`AI_chatbot`](./AI_chatbot)
+
 ### Description
 A simple rule-based chatbot built in Python that uses `if-else` logic to match predefined user inputs and generate appropriate responses. It runs in a continuous loop in the terminal, allowing back-and-forth conversation until the user exits.
 
@@ -34,7 +36,7 @@ A simple rule-based chatbot built in Python that uses `if-else` logic to match p
 
 ### How to Run
 ```bash
-cd path\to\project1-folder
+cd AI_chatbot
 python chatbot.py
 ```
 
@@ -58,6 +60,8 @@ Bot: Goodbye! Have a great day. 👋
 
 ## Project 2 — Iris Flower Species Classification (KNN)
 
+📁 Folder: [`AI_project2`](./AI_project2)
+
 ### Description
 A supervised Machine Learning project that predicts the species of an Iris flower (**Setosa**, **Versicolor**, **Virginica**) based on its physical measurements (sepal length, sepal width, petal length, petal width), using the classic Iris dataset and a **K-Nearest Neighbors (KNN)** classifier.
 
@@ -79,7 +83,7 @@ A supervised Machine Learning project that predicts the species of an Iris flowe
 ### How to Run
 ```bash
 pip install pandas scikit-learn
-cd path\to\project2-folder
+cd AI_project2
 python "AI project2.py"
 ```
 
@@ -104,6 +108,8 @@ Predicted species for new flower: Setosa
 
 ## Project 3 — Tech Stack Recommender
 
+📁 Folder: [`AI_project3`](./AI_project3)
+
 ### Description
 Recommends the most suitable job role based on a user's entered skills, using **TF-IDF (Term Frequency–Inverse Document Frequency)** and **Cosine Similarity**. It compares user-entered skills against a dataset of job roles (Data Scientist, DevOps Engineer, Backend Developer, Cloud Architect, Frontend Developer, Data Analyst) and returns the top 3 best-matching roles.
 
@@ -123,6 +129,7 @@ Recommends the most suitable job role based on a user's entered skills, using **
 ### How to Run
 ```bash
 pip install pandas scikit-learn
+cd AI_project3
 python recommender.py
 ```
 When prompted, enter 3 skills separated by commas:
@@ -130,18 +137,14 @@ When prompted, enter 3 skills separated by commas:
 Python, Cloud Computing, Automation
 ```
 
-### Sample Output
-```
---- Top Recommendations ---
-          job_role  similarity
-3  Cloud Architect    0.XX
-1  DevOps Engineer    0.XX
-0  Data Scientist     0.XX
-```
+### Output
+The program prints a **Top Recommendations** table showing the 3 best-matching job roles along with their similarity scores (higher score = better match).
 
 ---
 
 ## Project 4 — Image / Text Recognition (OCR)
+
+📁 Folder: [`AI_project4`](./AI_project4)
 
 ### Description
 Implements a basic **text recognition (OCR)** pipeline using a pre-trained OCR engine. The script loads a sample image containing text, pre-processes it, extracts the text, benchmarks recognition accuracy, and generates a visual output showing which words were detected and where.
@@ -159,14 +162,16 @@ Implements a basic **text recognition (OCR)** pipeline using a pre-trained OCR e
 - Tesseract OCR engine (system-level install)
 
 ### How to Run
-```bash
-python -m pip install pytesseract pillow opencv-python
-```
-Install the Tesseract OCR engine separately: https://github.com/UB-Mannheim/tesseract/wiki
-
-```bash
-python text_recognizer.py
-```
+1. Install the Python libraries:
+   ```bash
+   python -m pip install pytesseract pillow opencv-python
+   ```
+2. Install the Tesseract OCR engine separately: https://github.com/UB-Mannheim/tesseract/wiki
+3. Run the script:
+   ```bash
+   cd AI_project4
+   python text_recognizer.py
+   ```
 
 ### Project Files
 | File | Purpose |
@@ -198,4 +203,4 @@ python text_recognizer.py
 
 ---
 
-**Author:** DecodeLabs Internship — AI Track (Projects 1–4)
+**Author:** [s-7-samreen](https://github.com/s-7-samreen) — DecodeLabs Internship, AI Track (Projects 1–4)
